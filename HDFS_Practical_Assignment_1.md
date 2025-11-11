@@ -1,12 +1,10 @@
-# HDFS Practical Assignment – Part 1 + Part 2
-
-**Duration:** 2 hours  
+# HDFS Practical Assignment – I 
 
 ---
 
 ## Learning Objectives
 
-By completing this assignment, students will be able to:
+By completing this assignment, you will be able to:
 
 1. Perform essential **HDFS file operations**—create, upload, move, copy, and delete.  
 2. Understand how **replication** ensures data reliability and what happens when replication cannot reach its target.  
@@ -84,7 +82,7 @@ Efficient file management ensures clear data versioning, backup, and archival pr
 4. Review the directory structure to confirm that archive and backup directories exist and contain expected files.  
 
 **Expected Outcome**  
-Students understand safe file reorganization within HDFS while preserving data integrity.  
+Understand safe file reorganization within HDFS while preserving data integrity.  
 
 **Deliverable**  
 Screenshot of the final HDFS hierarchy with notes on which files were archived and backed up.  
@@ -106,7 +104,7 @@ Responsible cleanup prevents storage waste while safeguarding essential datasets
 4. Confirm that no critical data was lost in the process.  
 
 **Expected Outcome**  
-Students can safely delete targeted data in HDFS and verify structural integrity afterward.  
+Safely delete targeted data in HDFS and verify structural integrity afterward.  
 
 **Deliverable**  
 Screenshot of the HDFS directory structure after cleanup, noting which directory was deleted.  
@@ -133,7 +131,7 @@ Replication is central to HDFS reliability. Understanding its mechanics is cruci
 5. Record and interpret any *under-replicated* block messages and relate them to the number of DataNodes in your setup.  
 
 **Expected Outcome**  
-Students gain insight into how HDFS manages replication and what limits arise in single-node or constrained clusters.  
+Gain insight into how HDFS manages replication and what limits arise in single-node or constrained clusters.  
 
 **Deliverable**  
 Screenshot of the replication status and a concise explanation describing the observed replication behavior.  
@@ -160,7 +158,7 @@ Regular monitoring of cluster health is essential for system reliability and pre
 4. Optionally, add or delete a file to see how reported statistics change.  
 
 **Expected Outcome**  
-Students learn to read and interpret HDFS diagnostic outputs and connect them to real-world cluster behavior.  
+Learn to read and interpret HDFS diagnostic outputs and connect them to real-world cluster behavior.  
 
 **Deliverable**  
 Screenshot of the HDFS cluster report and a short explanation of at least three key metrics observed.  
@@ -173,6 +171,6 @@ Screenshot of the HDFS cluster report and a short explanation of at least three 
 2. Ensure explanations are concise and relevant.  
 3. Maintain consistent directory names throughout the assignment.  
 4. Submit the completed document as a PDF or DOCX file named:  
-   `HDFS_Assignment_<YourName>_<RollNumber>.pdf`  
+   `HDFS_Assignment_<number>_<YourName>_<Batch>.pdf`  
 
 ---
